@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+.element_border{
+  width:62.5%;
+  margin: auto;
+  align-content: center;
+  
+}
+
+body{
+  margin: auto;
+  padding: 0;
+  overflow-x: hidden;
+  }
+
+.solarimg_{
+  position: absolute;
+  margin-top: 40rem;
+  z-index: 2;
+}
+
+@media (min-width: 895px) and (max-width: 1355px) {
+
+.solarimg_{
+margin-top: 60rem;
+}
+
+}
+
+@media (min-width: 578px) and (max-width: 895px) {
+
+  .solarimg_ img{
+    max-width: 400px;
+    max-height: 400px;
+    padding-top: 19rem;
+  }
+
+
+}
+
+@media (max-width: 578px){
+.solarimg_ img{
+    max-width: 300px;
+    max-height: 300px;
+    padding-top: 13rem;
+  }
+}
+
+  @media (min-width: 768px) and (max-width: 1024px){
+    .element_border{
+      width:82.5%;
+  
+    }
+  
+  }
+  
+  @media (min-width: 481px) and (max-width: 767px) {
+    .element_border{
+      width:92.5%;
+  
+    }
+  
+  
+  }
+  
+  @media (max-width: 480px) {
+  
+    .element_border{
+      width:92.5%;
+  
+    }
+  
+  
+  }
+ 

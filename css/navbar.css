@@ -1,0 +1,13 @@
+.nav_{
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+
+@media (max-width: 800px) {
+ .nav_{
+    display: flex;
+    justify-content: center;
+   margin-inline: auto;
+ }
+}

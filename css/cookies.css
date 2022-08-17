@@ -1,0 +1,35 @@
+.cookie_ h1{
+  color: white;
+  font: normal normal 800 50px/55px Open Sans;
+}
+.cookie_ h2{
+  color: white;
+  font: normal normal 800 43px/55px Open Sans;
+}
+.cookie_ p{
+  color: white;
+  font: normal normal 500 20px/25px Open Sans;
+}
+
+.cookie_{
+  height: 800px;
+}
+
+
+@media (max-width: 500px) {
+
+.cookie_ h1{
+  color: white;
+  font: normal normal 800 40px/45px Open Sans;
+}
+.cookie_ h2{
+  color: white;
+  font: normal normal 800 40px/55px Open Sans;
+}
+.cookie_ p{
+  color: white;
+  font: normal normal 500 16px/25px Open Sans;
+}
+
+
+}

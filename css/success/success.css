@@ -1,0 +1,78 @@
+.success_{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.success_ div{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.success_ div h1{
+text-align: center;
+font: normal normal 800 58px/58px Open Sans;
+letter-spacing: 0px;
+color: #FFFFFF;
+opacity: 1;
+text-transform: uppercase;
+margin: 0;
+padding-top: 1rem;
+}
+
+.success_ div h2{
+  text-align: left;
+font: normal normal 800 26px/30px Open Sans;
+letter-spacing: 0px;
+color: #FFFFFF;
+opacity: 1;
+padding-top: 1rem;
+}
+
+.success_ div img{
+  padding-top: 7rem;
+}
+
+.solarimg_success{
+ position: absolute;
+    margin-top: 22rem;
+    z-index: 2;
+}
+
+.success_ p{
+  text-align: center;
+font: normal normal 800 277px/7px Open Sans;
+margin-top: 14rem;
+margin-bottom: 7rem;
+letter-spacing: 0px;
+color: transparent;
+ color: black;
+  -webkit-text-fill-color: transparent; /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: white;
+}
+
+@media (max-width: 1344px) {
+.solarimg_success{
+  padding-top: 10rem;
+}
+
+}
+
+@media (max-width:892px) {
+ .successdiv{
+  height: 5rem;
+ }
+
+}
+
+@media (max-width:892px) {
+
+.solarimg_success{
+ display: none;
+}
+
+.success_ div img {
+    padding-top: 0rem;
+}
+
+}
